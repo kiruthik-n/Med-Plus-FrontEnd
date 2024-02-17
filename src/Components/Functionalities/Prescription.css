@@ -1,0 +1,74 @@
+header {
+            text-align: center;
+            background-color: #d73333;
+            color: white;
+            padding: 10px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        .prescription h2 {
+            color: #4CAF50;
+        }
+
+        .prescription {
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .patient-info {
+            margin-bottom: 20px;
+        }
+
+        .prescription table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+
+        .pres th,.pres td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+       .pres th {
+            /* background-color: #4CAF50; */
+            background-color: #d73333;
+            color: white;
+        }
+
+        
+        .doctor-info {
+            margin-top: 20px;
+            text-align: right;
+            z-index: 0;
+        }
+
+        .seal img {
+            width: 14%;
+            height: 20%;
+            float: right;
+        }
+        
+        .seperate{
+           border: 3px solid red;
+           height:fit-content; 
+            width: 820px;
+            margin-left: 190px;
+        }
+        .datee{
+            text-align: right;
+            float:inherit;
+        }
+        .patient-info{
+            border: none;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+     

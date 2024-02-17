@@ -1,0 +1,21 @@
+
+/*.grcontainer{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.gridd{
+    text-align: center;
+    border: 1px solid rgba(209, 1, 1, 0.8);
+    padding: 10px;
+    font-size: 15px;
+}
+.grcontainer img{
+    text-align: center;
+    width: 395px;
+    height: 304px;
+} 
+.gridd:hover{
+    background-color: rgba(0, 0, 0,0.3);
+    font-weight: bold;
+} */

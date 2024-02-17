@@ -1,0 +1,194 @@
+/* *********************************  TOP BAR STYLE PART  ****************************************/
+
+.MainDiv {
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 10px 40px;
+  text-align: right;
+  gap: 1rem;
+  color: white;
+  background-color: red;
+}
+.toplog{
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  
+}
+.IconsDiv {
+  display: flex;
+  gap: 30px;
+  text-align: right;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Icons {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.SearchDiv input {
+  width: 100%;
+  color: black;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  background-color: white;
+}
+
+
+
+
+
+/* **********************   SIDEBAR STYLE PART  ************************* */
+.container {
+  display: flex;
+  gap: 2rem;
+  /*background-color: rgba(131, 220, 255, 0.29);*/
+ 
+  width: 100%;
+  /* border: 2px solid green; */
+  width: 100%;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+.mainIcon {
+  color: white;
+  font-size: 2rem;
+}
+
+.sidebar {
+  /*background: rgba(255, 166, 134, 0.874);*/
+  /*background-color: rgba(10, 43, 227, 0.944);*/
+  /*background-color: rgba(0, 128, 0,0.7);*/
+  /* background-color: rgb(249, 0, 0); */
+  background-color:rgb(239, 48, 51);
+    /* background-color:rgb(182, 67, 248);   */
+  
+  color: white;
+  height: 100vh;
+  transition: all 0.5s;
+  position: sticky;
+  top: 0;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 30px;
+}
+.logIcon{
+  font-size: 25px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  transition: all 0.5s;
+}
+.link:hover {
+  /* background: rgba(253, 147, 108, 0.874); */
+  background: black;
+  color: white;
+  transition: all 0.1s;
+}
+.active {
+  /* background: rgba(253, 147, 108, 0.874); */
+  background: white;
+  color: #000;
+}
+.icon,
+.link_text {
+  font-size: 15px;
+}
+
+.LogOutPath .icon {
+  font-size: 2rem;
+}
+
+.AfterSideBar {
+  width: 90%;
+  margin: 1.5rem;
+  
+}
+
+/**************************************** FRONT PAGE STYLE  *****************************************/
+link{
+  text-decoration: none;
+  color: white;
+}
+.maindiv {
+  display: grid;
+  grid-template-columns: repeat(3, 0.4fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+
+.headWel{
+  text-align: center;
+}
+.commondiv {
+  border: 2px solid;
+  height: 8rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+
+
+.commondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  box-shadow: 0px 0px 36px -3px #00000026;
+  border: none;
+  color: black;
+  text-decoration: none;
+  background-color:rgba(239, 48, 51,0.9);
+  /* background-color: rgb(147, 114, 224); */
+}
+.commondiv:hover{
+background-color: rgba(224, 65, 40, 0.9)
+}
+.overviewIcon {
+  font-size: 4rem;
+  /*color: rgb(184 191 234);*/
+  color: white;
+}
+
+/* ******************************************************** */
+
+
+.gif img{
+  width: 340px;
+  height: 330px;
+}
+.gif{
+  float: right;
+  width: 1200px;
+}

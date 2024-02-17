@@ -1,0 +1,91 @@
+.Main_Add_Doctor_div {
+    margin: auto;
+    margin-top: 1%;
+    padding: 3rem;
+    border-radius: 10px;
+    width: 95%;
+    box-shadow: 0px 1px 11px 2px #0000001f;
+    background-color: white;
+    
+  }
+  
+  .Main_Add_Doctor_div h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0rem 0rem 1rem 0rem;
+  }
+  
+  .Main_Add_Doctor_div img {
+    width: 10%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 6rem;
+  }
+  
+  form div {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-top: 5px;
+    align-items: center;
+  }
+  
+  form input,
+  select,
+  textarea {
+    width: 100%;
+    background-color: rgba(178, 219, 250, 0.874);
+    height: 3rem;
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: black;
+    padding: 10px;
+  }
+  
+
+  
+  .inputdiv {
+    display: flex;
+    justify-content: left;
+    width: 60%;
+  }
+  
+  .formsubmitbutton {
+    text-align: center;
+    width: 18%;
+    height: 2.8rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 0, 0,0.7);
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .formsubmitbutton:hover {
+    background: red;
+  }
+  
+  
+  .inputdiv span div {
+    display: block;
+  }
+  
+  .mainAmbupance {
+    background-color: white;
+  }
+.containerReport{
+  background-color: rgba(236, 60, 60,0.5);
+}
+
+input[type=checkbox]{
+  height:30px;
+  width: 30px;
+}
+  

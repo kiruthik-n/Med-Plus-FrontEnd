@@ -1,0 +1,59 @@
+table{
+  border-collapse:inherit;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    border-color: red;
+  }
+  th{
+    height: 65px;
+    /* background-color: #04AA6D; */
+    background-color: rgb(229, 58, 58);
+     /* background-color: rgb(80, 77, 255);  */
+    color: white;
+    font-size: large;
+  }
+  td{
+    text-align: center;
+    height: 40px;
+   
+  }
+  tr:nth-child(even){background-color: rgb(242, 242, 242)}
+
+  tr:hover{
+    background-color: rgba(4, 170, 109,0.5) ;
+  }
+  .container{
+    background-color:white;
+  }
+  .patientBox button{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+     background-color: #04AA6D; 
+      /* background-color:  rgb(82, 79, 214);   */
+
+    font-weight: bold;
+    border-radius: 15px;
+    width: 60%;
+    height: 65%;
+    cursor: pointer;
+  }
+  .popup{
+    top: -150%;
+    position: absolute;
+    opacity: 0;
+    transform: translate(-50%,-50%) scale(1.25);
+    transform: top 0ms ease-in-out 200ms,
+               opacity 200ms ease-in-out 0ms,
+               transform 20ms ease-in-out 0ms;
+  }
+  .popup.active{
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%,-50%) scale(1);
+    transform: top 0ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 0ms;
+
+  }

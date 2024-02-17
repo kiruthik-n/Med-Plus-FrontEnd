@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,600,700);
+.snip1527 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  float: left;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  margin: 12px 1%;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 330px;
+  height: 330px;
+}
+
+
+.snip1527 img {
+  vertical-align: top;
+}
+
+.snip1527 figcaption {
+  padding: 18px 20px 20px;
+  position: absolute;
+  bottom: 0;
+  height: 115px;
+  z-index: 1;
+}
+
+.snip1527 figcaption:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background: #700877; */
+  background: #c12c2c;
+  content: '';
+
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+
+
+.snip1527 h3,
+.snip1527 p {
+  margin: 0;
+  padding: 0;
+}
+
+.snip1527 h3 {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-bottom: 5px;
+}
+
+.snip1527 p {
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+
+
+/* Demo purposes only */
+.grcontainer{
+  display: grid;
+grid-template-columns: auto auto auto;
+padding: 10px;
+}
